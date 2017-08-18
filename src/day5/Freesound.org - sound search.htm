@@ -1,0 +1,2685 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0044)http://freesound.org/search/?q=scary+screams -->
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        
+        <meta name="description" content="Freesound: collaborative database of creative-commons licensed sound for musicians and sound lovers. Have you freed your sound today?">
+        <meta name="keywords" content="free, sound">
+        <link rel="stylesheet" type="text/css" href="./Freesound.org - sound search_files/all.css">
+        <!--[if IE 6]><link rel="stylesheet" type="text/css" href="/media/css/ie6.css?v=1508" /><![endif]-->
+        <link rel="icon" href="http://freesound.org/favicon.ico">
+        <title>Freesound.org - sound search</title>
+        <script type="text/javascript" async="" src="./Freesound.org - sound search_files/ga.js"></script><script src="./Freesound.org - sound search_files/jquery-1.5.2.min.js" type="text/javascript"></script>
+        <script src="./Freesound.org - sound search_files/jquery-ui-1.8.11.custom.min.js" type="text/javascript"></script>
+        <script src="./Freesound.org - sound search_files/jquery.cookie.js" type="text/javascript"></script>
+        <script src="./Freesound.org - sound search_files/swfobject.js" type="text/javascript"></script>
+        <script src="./Freesound.org - sound search_files/jquery.watermarkinput.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            var isLoggedIn = true;
+            var loginUrl = "/home/login/?next=/search/";
+            $(document).ready(function() {
+                 $("#search input[name=q]").Watermark("search sounds");
+            });
+            function clearWatermark(){
+			   $.Watermark.HideAll()
+			   return true
+			}
+        </script>
+        <script src="./Freesound.org - sound search_files/freesound.js" type="text/javascript"></script>
+        <script src="./Freesound.org - sound search_files/maps.js" type="text/javascript"></script>
+
+    	<script src="./Freesound.org - sound search_files/ajax_utils.js" type="text/javascript"></script>
+        <!-- next couple of lines are used for the HTML player -->
+        <link href="./Freesound.org - sound search_files/css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="./Freesound.org - sound search_files/player.css">
+        <script src="./Freesound.org - sound search_files/soundmanager2.js"></script>
+        <script type="text/javascript" src="./Freesound.org - sound search_files/player.js"></script>
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-86270-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+        
+    </head>
+
+    <body id="" onload="" onunload="">
+
+        
+
+
+        <div id="header">
+            <div id="account_nav">
+                
+                    
+                    <a href="http://freesound.org/people/leagueofamazing/"><div id="account_user"><img src="./Freesound.org - sound search_files/user_icon.png" alt="user icon">leagueofamazing</div></a>
+                    <a href="http://freesound.org/home/messages/">Messages</a><div class="messages_count" id="message_indicator_0"><div>0</div></div>
+                    
+                    
+                    <a href="http://freesound.org/home/edit/">Settings</a>
+                    <a href="http://freesound.org/home/logout/?next=/">Log Out</a>
+                    
+                
+            <a href="http://freesound.org/home/upload/" id="upload_button"></a>
+        </div>
+
+        <a href="http://freesound.org/" id="logo"></a>
+
+        <div id="search">
+        <form method="get" onsubmit="return clearWatermark()" action="http://freesound.org/search/">
+            <fieldset>
+               <input type="text" name="q" value="" size="30" style="color: rgb(170, 170, 170);">
+               <input type="submit" value="" id="search_submit">
+            </fieldset>
+        </form>
+        </div>
+
+        <ul id="site_nav">
+            
+            <li class=""><a href="http://freesound.org/home/" id="site_nav_home"><span class="site_nav_icon"></span>Home</a></li>
+            
+            <li class="active_tab"><a href="http://freesound.org/browse/" id="site_nav_sounds"><span class="site_nav_icon"></span>Sounds</a></li>
+            <li class=""><a href="http://freesound.org/forum/" id="site_nav_forums"><span class="site_nav_icon"></span>Forums</a></li>
+            <li class=""><a href="http://freesound.org/people/" id="site_nav_people"><span class="site_nav_icon"></span>People</a></li>
+            <li class=""><a href="http://freesound.org/help/faq/" id="site_nav_help"><span class="site_nav_icon"></span>Help</a></li>
+
+        </ul>
+    </div>
+
+        <div id="wrapper">
+        <div id="container">
+
+        
+
+        
+<div id="content_full"> <!-- START of Content area -->
+
+
+<form id="search_form" method="get" onsubmit="return addAdvancedSearchOptionsFilters()" action="http://freesound.org/search/">
+    <fieldset>
+
+       <input id="query_input" type="text" name="q" value="scary screams" size="30">
+       <input id="filter_query" type="hidden" name="f" value="" size="30">
+       
+       <select name="s">
+            
+            <option value="score desc" selected="selected">Automatic by relevance</option>
+            
+            <option value="duration desc">Duration (long first)</option>
+            
+            <option value="duration asc">Duration (short first)</option>
+            
+            <option value="created desc">Date added (newest first)</option>
+            
+            <option value="created asc">Date added (oldest first)</option>
+            
+            <option value="num_downloads desc">Downloads (most first)</option>
+            
+            <option value="num_downloads asc">Downloads (least first)</option>
+            
+            <option value="avg_rating desc">Rating (highest first)</option>
+            
+            <option value="avg_rating asc">Rating (lowest first)</option>
+            
+       </select>
+
+       <input type="submit" value="search" id="search_submit">
+
+       
+    <div id="advanced_search_options" style="display:none" class="advanced_search_options">
+
+
+
+    <input id="advanced_search_hidden" type="hidden" name="advanced" value="0">
+
+
+<div style="margin-top:8px;"></div>
+Search in:&nbsp;
+
+
+    <input type="checkbox" name="a_tag" value="1"> Tags
+
+&nbsp;&nbsp;
+
+
+    <input type="checkbox" name="a_filename" value="1"> File names
+
+&nbsp;&nbsp;
+
+
+    <input type="checkbox" name="a_description" value="1"> Descriptions
+
+&nbsp;&nbsp;
+
+
+    <input type="checkbox" name="a_packname" value="1"> Pack names
+
+&nbsp;&nbsp;
+
+
+    <input type="checkbox" name="a_soundid" value="1"> Sound Ids
+
+&nbsp;&nbsp;
+
+
+    <input type="checkbox" name="a_username" value="1"> User names
+
+<span class="advanced_search_indication">(if none is selected, all will be used)</span>
+<br>
+
+Duration between <input class="inputtext" id="filter_duration_min" type="text" value="0" size="6"> (min) and <input class="inputtext" id="filter_duration_max" type="text" value="*" size="6"> (max) seconds
+<br>
+<input id="filter_is_geotagged" type="checkbox" value="1"> Only geotagged sounds
+<br>
+<input id="grouping_geotagged" type="checkbox" onchange="set_hidden_grouping_value()" checked="checked"> Group sounds by pack
+<input id="grouping_geotagged_hidden" type="hidden" name="g" value="1">
+
+<br>
+<span class="advanced_search_options_button"><a style="cursor:pointer;" onclick="hideAdvancedSearchOptions();">Hide advanced search options</a></span>
+</div>
+
+
+    <span id="enableShowButton" class="advanced_search_options_button">
+
+
+
+<div style="margin-top:4px;"></div>
+<a style="cursor:pointer;" onclick="showAdvancedSearchOptions();">Show advanced search options</a>
+</span>
+
+
+        <br>
+
+    </fieldset>
+</form>
+
+
+<p id="filter_query_display">
+</p>
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+        // Fill advanced search fields that were passen on the f parameter
+        // Duration
+
+        if (getFilterValue("duration","min") == "")
+            $("#filter_duration_min").val("0");
+        else
+            $("#filter_duration_min").val(getFilterValue("duration","min"));
+
+        if (getFilterValue("duration","max") == "")
+            $("#filter_duration_max").val("*");
+        else
+            $("#filter_duration_max").val(getFilterValue("duration","max"));
+
+        // Geotagged
+        if (getFilterValue("is_geotagged")==1)
+               $("#filter_is_geotagged").attr('checked','checked')
+
+        // Extract terms from the query search box and highlight any of their occurrences in the descriptions
+        terms = document.getElementById("query_input").value.split(" ");
+
+        for(var i=0;i<terms.length;i++)
+        {
+        	term = terms[i];
+        	re = RegExp(term,"i"); // i for case-insensative
+
+        	descriptions = document.getElementsByClassName("description");
+        	for (var j=0;j<descriptions.length;j++)
+        	{
+        		descriptions[j].innerHTML = descriptions[j].innerHTML.replace(re,"<b>"+term+"</b>");
+        	}
+        }
+
+    });
+
+    function showAdvancedSearchOptions()
+    {
+        $("#advanced_search_hidden").val(1);
+        $("#enableShowButton").hide();
+        $("#advanced_search_options").show('blind', {}, 500, function() {});
+
+    }
+
+    function hideAdvancedSearchOptions()
+    {
+        $("#advanced_search_hidden").val(0);
+        $("#advanced_search_options").hide('blind', {}, 500, function() {});
+        $("#enableShowButton").show();
+    }
+
+    function addAdvancedSearchOptionsFilters()
+    {
+
+        // Remove existing previously existing advanced options filters (will be replaced by current ones)
+        existing_duration_filter = "duration:[" + getFilterValue("duration","min") + " TO " + getFilterValue("duration","max") + "]"
+        removeFilter(existing_duration_filter)
+        removeFilter("is_geotagged:1")
+
+        // if advanced options is activated add all updated filters
+        if ($("#advanced_search_hidden").val() == 1)
+        {
+
+            // Create and add new filter with all the advanced options
+            filter = ""
+
+            // Duration filter
+            duration_min = parseFloat($("#filter_duration_min").val())
+            duration_max = parseFloat($("#filter_duration_max").val())
+
+            if ((duration_min >= 0.0) || (duration_max >= 0.0))
+            {
+                duration_filter = ""
+
+                if ((duration_min >= 0.0) && (duration_max >= 0.0)) // Both min and max have been set
+                {
+                    if (duration_max < duration_min)
+                    {
+                        // interchange values if duration_min > duration_max
+                        duration_aux = duration_min
+                        duration_min = duration_max
+                        duration_max = duration_aux
+                    }
+
+                    duration_filter = "duration:[" + duration_min + " TO " + duration_max + "]"
+
+                }
+                else if (duration_min >= 0.0) // Only minimum has been set
+                {
+                    duration_filter = "duration:[" + duration_min + " TO *]"
+                }
+                else if (duration_max >= 0.0) // Only maximum has been set
+                {
+                    duration_filter = "duration:[* TO " + duration_max + "]"
+                }
+
+                filter = filter + duration_filter
+            }
+
+            // Is geotagged filter
+            if ($("#filter_is_geotagged").attr('checked')){
+                if (filter != "")
+                    filter = filter + " "
+                filter = filter + "is_geotagged:1"
+            }
+
+               // Update general filter with the advanced options filter
+            value = $("#filter_query").val();
+            if (value != "")
+                $("#filter_query").val(value + " " + filter);
+            else
+                $("#filter_query").val(filter);
+
+        }
+
+        return true
+    }
+
+    // Return the value of a filter given its name
+    // If filter has a range, optional "range" parameter must be set to "min or "max"
+    function getFilterValue(name, range)
+    {
+        if (!range) { range = "min"};
+
+        var value = $("#filter_query").val();
+        position_name = value.search(name)
+        position_value = value.search(name) + (name + ":").length
+        if (value.search((name + ":")) != -1)
+        {
+            if (value[position_value] == "[") // Is range (with spaces)
+            {
+                aux_value = value.substring(position_value + 1)
+                position_end = position_value + aux_value.search("]") + 2
+
+                range_string = value.substring(position_value + 1, position_end -1) // Without [ ]
+                parts = range_string.split(" ")
+                if (range == "min")
+                    return parts[0]
+                else if (range == "max")
+                    return parts[2]
+            }
+            else if (value[position_value] == "\"") // Is string (with spaces)
+            {
+                aux_value = value.substring(position_value + 1)
+                position_end = position_value + aux_value.search("\"") + 2
+                return value.substring(position_value, position_end)
+
+            }
+            else // Is number or normal text (without spaces)
+            {
+                aux_value = value.substring(position_value + 1)
+                if (aux_value.search(" ") != -1)
+                    position_end = position_value + aux_value.search(" ") + 1
+                else
+                    position_end = value.length
+
+                return value.substring(position_value, position_end)
+            }
+        }
+        else
+        {
+            return ""
+        }
+    }
+
+    // Remove a filter given the full tag ex: type:aiff, pack:"pack name"
+    function removeFilter(tag)
+    {
+        var value = $("#filter_query").val();
+        var cleaned = $.trim(value.replace(tag + " ", "").replace(tag, ""));
+        $("#filter_query").val(cleaned);
+    }
+
+    function addFilter(name, filter)
+    {
+        if (filter.search(" ") != -1)
+            filter = "\"" + filter.replace(/"/g,'\\\"') + "\""
+        var tag = name + ":" + filter;
+
+        if ($("#filter_query").val().search(tag) == -1)
+        {
+            var value = $("#filter_query").val();
+
+            if (value != "")
+                $("#filter_query").val(value + " " + tag);
+            else
+                $("#filter_query").val(tag);
+
+            $("#search_form").submit();
+        }
+        else
+        {
+            alert("You already added this filter");
+        }
+    }
+
+    function scan(value, pattern, callback)
+    {
+        $.each(value.match(pattern) || [], callback);
+    }
+
+    function update_filter_display()
+    {
+        var i = 0;
+
+        function add_filter(filter)
+        {
+            // prevent advanced options filters to appear in this line
+            filter_name = filter.split(":")[0]
+            if ((filter_name != "duration") && (filter_name != "is_geotagged"))
+            {
+                var filter_id = "filter_" + i++;
+                var display_filter = filter;
+                if (filter_name == "grouping_pack"){
+                    var filter_value = filter.slice(filter.indexOf(":"),filter.length)
+                    display_filter = "pack:" + filter_value.slice(filter_value.indexOf("_")+1,filter_value.length-1)
+                }
+
+                var element = $("<a id=\"" + filter_id + "\" title=\"remove this filter\"></a>").html(display_filter);
+                element.click(function (event) {
+                    removeFilter(filter);
+                    element.remove();
+                    event.preventDefault();
+                    $("#search_form").submit();
+                });
+
+                $('#filter_query_display').append(element);
+            }
+        }
+
+        var value = $("#filter_query").val().replace(/\\\"/g,'---replace---');
+
+
+        scan(value, /[\w-]+:[\w-\.]+/g, function (index, filter) {
+            add_filter(filter);
+        });
+
+        scan(value, /[\w-]+:\"[^\"]+\"/g, function (index, filter) {
+            add_filter(filter.replace(/---replace---/g,'\\\"'));
+
+        });
+
+    }
+
+    update_filter_display();
+
+    function set_hidden_grouping_value(){
+        if ($("#grouping_geotagged").is(':checked')){
+            $("#grouping_geotagged_hidden").val("1")
+        }else{
+            $("#grouping_geotagged_hidden").val("")
+        }
+    }
+
+</script>
+
+
+    
+    <div id="sidebar" style="float:right">
+        
+            <h3>licenses</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="javascript:addFilter(&quot;license&quot;, &quot;Attribution&quot;)">Attribution</a> (97)</li><li class="facet_item"><a href="javascript:addFilter(&quot;license&quot;, &quot;Attribution Noncommercial&quot;)">Attribution Noncommercial</a> (46)</li><li class="facet_item"><a href="javascript:addFilter(&quot;license&quot;, &quot;Creative Commons 0&quot;)">Creative Commons 0</a> (97)</li><li class="facet_item"><a href="javascript:addFilter(&quot;license&quot;, &quot;Sampling+&quot;)">Sampling+</a> (6)</li>
+
+     
+</ul>
+
+
+
+        
+
+        
+            <h3>tags</h3>
+            
+
+<p class="search-tagcloud">
+    <span class="facet_item" style="font-size:1.09em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;666moviescreams&#39;)">666moviescreams</a></span> <span class="facet_item" style="font-size:0.765em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;agony&#39;)">agony</a></span> <span class="facet_item" style="font-size:0.895em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;atmosphere&#39;)">atmosphere</a></span> <span class="facet_item" style="font-size:0.83em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;creature&#39;)">creature</a></span> <span class="facet_item" style="font-size:1.675em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;creepy&#39;)">creepy</a></span> <span class="facet_item" style="font-size:1.285em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;dying&#39;)">dying</a></span> <span class="facet_item" style="font-size:1.22em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;evil&#39;)">evil</a></span> <span class="facet_item" style="font-size:1.61em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;fear&#39;)">fear</a></span> <span class="facet_item" style="font-size:0.765em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;female&#39;)">female</a></span> <span class="facet_item" style="font-size:0.7em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;film&#39;)">film</a></span> <span class="facet_item" style="font-size:0.7em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;game&#39;)">game</a></span> <span class="facet_item" style="font-size:1.22em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;ghost&#39;)">ghost</a></span> <span class="facet_item" style="font-size:0.765em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;girl&#39;)">girl</a></span> <span class="facet_item" style="font-size:0.83em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;growl&#39;)">growl</a></span> <span class="facet_item" style="font-size:1.025em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;halloween&#39;)">halloween</a></span> <span class="facet_item" style="font-size:1.48em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;haunted&#39;)">haunted</a></span> <span class="facet_item" style="font-size:1.87em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;horror&#39;)">horror</a></span> <span class="facet_item" style="font-size:1.74em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;monster&#39;)">monster</a></span> <span class="facet_item" style="font-size:1.155em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;movie&#39;)">movie</a></span> <span class="facet_item" style="font-size:0.83em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;pain&#39;)">pain</a></span> <span class="facet_item" style="font-size:0.96em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;roar&#39;)">roar</a></span> <span class="facet_item" style="font-size:2.0em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;scary&#39;)">scary</a></span> <span class="facet_item" style="font-size:1.935em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;scream&#39;)">scream</a></span> <span class="facet_item" style="font-size:1.805em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;screaming&#39;)">screaming</a></span> <span class="facet_item" style="font-size:0.895em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;screams&#39;)">screams</a></span> <span class="facet_item" style="font-size:1.545em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;spooky&#39;)">spooky</a></span> <span class="facet_item" style="font-size:0.895em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;terrifying&#39;)">terrifying</a></span> <span class="facet_item" style="font-size:1.415em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;terror&#39;)">terror</a></span> <span class="facet_item" style="font-size:1.35em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;voice&#39;)">voice</a></span> <span class="facet_item" style="font-size:0.895em"><a href="javascript:addFilter(&#39;tag&#39;, &#39;woman&#39;)">woman</a></span> 
+</p>
+
+
+        
+
+        
+            <h3>type</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="javascript:addFilter(&quot;type&quot;, &quot;aiff&quot;)">aiff</a> (5)</li><li class="facet_item"><a href="javascript:addFilter(&quot;type&quot;, &quot;flac&quot;)">flac</a> (9)</li><li class="facet_item"><a href="javascript:addFilter(&quot;type&quot;, &quot;mp3&quot;)">mp3</a> (42)</li><li class="facet_item"><a href="javascript:addFilter(&quot;type&quot;, &quot;ogg&quot;)">ogg</a> (5)</li><li class="facet_item"><a href="javascript:addFilter(&quot;type&quot;, &quot;wav&quot;)">wav</a> (185)</li>
+
+     
+</ul>
+
+
+
+        
+
+        
+            <h3>samplerate</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="javascript:addFilter(&quot;samplerate&quot;, &quot;22050&quot;)">22050</a> (3)</li><li class="facet_item"><a href="javascript:addFilter(&quot;samplerate&quot;, &quot;44100&quot;)">44100</a> (179)</li><li class="facet_item"><a href="javascript:addFilter(&quot;samplerate&quot;, &quot;48000&quot;)">48000</a> (44)</li><li class="facet_item"><a href="javascript:addFilter(&quot;samplerate&quot;, &quot;8000&quot;)">8000</a> (4)</li><li class="facet_item"><a href="javascript:addFilter(&quot;samplerate&quot;, &quot;96000&quot;)">96000</a> (16)</li>
+
+     
+</ul>
+
+
+
+        
+
+        
+            <h3>bitdepth</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="javascript:addFilter(&quot;bitdepth&quot;, &quot;16&quot;)">16</a> (124)</li><li class="facet_item"><a href="javascript:addFilter(&quot;bitdepth&quot;, &quot;24&quot;)">24</a> (50)</li><li class="facet_item"><a href="javascript:addFilter(&quot;bitdepth&quot;, &quot;32&quot;)">32</a> (26)</li>
+
+     
+</ul>
+
+
+
+        
+
+        
+            <h3>bitrate</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="javascript:addFilter(&quot;bitrate&quot;, &quot;1378&quot;)">1378</a> (62)</li><li class="facet_item"><a href="javascript:addFilter(&quot;bitrate&quot;, &quot;1379&quot;)">1379</a> (13)</li><li class="facet_item"><a href="javascript:addFilter(&quot;bitrate&quot;, &quot;1411&quot;)">1411</a> (27)</li><li class="facet_item"><a href="javascript:addFilter(&quot;bitrate&quot;, &quot;689&quot;)">689</a> (21)</li><li class="facet_item"><a href="javascript:addFilter(&quot;bitrate&quot;, &quot;705&quot;)">705</a> (10)</li>
+
+     
+</ul>
+
+
+
+        
+
+
+        
+            <h3>channels</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="javascript:addFilter(&quot;channels&quot;, &quot;1&quot;)">1</a> (72)</li><li class="facet_item"><a href="javascript:addFilter(&quot;channels&quot;, &quot;2&quot;)">2</a> (174)</li>
+
+     
+</ul>
+
+
+
+        
+
+        
+            <h3>packs</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="javascript:addFilter(&quot;grouping_pack&quot;, &quot;12306_Horror&quot;)">Horror</a> (8)</li><li class="facet_item"><a href="javascript:addFilter(&quot;grouping_pack&quot;, &quot;12920_GameSound&quot;)">GameSound</a> (4)</li><li class="facet_item"><a href="javascript:addFilter(&quot;grouping_pack&quot;, &quot;13918_Movie screams&quot;)">Movie screams</a> (4)</li><li class="facet_item"><a href="javascript:addFilter(&quot;grouping_pack&quot;, &quot;16688_Horror Sound Effects Library&quot;)">Horror Sound Effects Library</a> (5)</li><li class="facet_item"><a href="javascript:addFilter(&quot;grouping_pack&quot;, &quot;19976_scream&quot;)">scream</a> (6)</li><li class="facet_item"><a href="javascript:addFilter(&quot;grouping_pack&quot;, &quot;20141_Horror&quot;)">Horror</a> (8)</li><li class="facet_item"><a href="javascript:addFilter(&quot;grouping_pack&quot;, &quot;21991_Desperate screams&quot;)">Desperate screams</a> (10)</li><li class="facet_item"><a href="javascript:addFilter(&quot;grouping_pack&quot;, &quot;3631_Stereotypical Film SFX&quot;)">Stereotypical Film SFX</a> (13)</li><li class="facet_item"><a href="javascript:addFilter(&quot;grouping_pack&quot;, &quot;3903_screams&quot;)">screams</a> (5)</li><li class="facet_item"><a href="javascript:addFilter(&quot;grouping_pack&quot;, &quot;8355_Evil!&quot;)">Evil!</a> (5)</li>
+
+     
+</ul>
+
+
+
+        
+
+        
+            <h3>users</h3>
+            
+
+<p class="search-tagcloud">
+    <span class="facet_item" style="font-size:1.07142857143em"><a href="javascript:addFilter(&#39;username&#39;, &#39;adriancalzon&#39;)">adriancalzon</a></span> <span class="facet_item" style="font-size:0.7em"><a href="javascript:addFilter(&#39;username&#39;, &#39;aiyumi&#39;)">aiyumi</a></span> <span class="facet_item" style="font-size:0.7em"><a href="javascript:addFilter(&#39;username&#39;, &#39;alberttrepat&#39;)">alberttrepat</a></span> <span class="facet_item" style="font-size:0.7em"><a href="javascript:addFilter(&#39;username&#39;, &#39;alex_audio&#39;)">alex_audio</a></span> <span class="facet_item" style="font-size:0.7em"><a href="javascript:addFilter(&#39;username&#39;, &#39;carmsie&#39;)">carmsie</a></span> <span class="facet_item" style="font-size:1.07142857143em"><a href="javascript:addFilter(&#39;username&#39;, &#39;dneproman&#39;)">dneproman</a></span> <span class="facet_item" style="font-size:0.885714285714em"><a href="javascript:addFilter(&#39;username&#39;, &#39;dobroide&#39;)">dobroide</a></span> <span class="facet_item" style="font-size:1.07142857143em"><a href="javascript:addFilter(&#39;username&#39;, &#39;ebcrosby&#39;)">ebcrosby</a></span> <span class="facet_item" style="font-size:0.885714285714em"><a href="javascript:addFilter(&#39;username&#39;, &#39;erh&#39;)">erh</a></span> <span class="facet_item" style="font-size:1.81428571429em"><a href="javascript:addFilter(&#39;username&#39;, &#39;guamorims&#39;)">guamorims</a></span> <span class="facet_item" style="font-size:1.07142857143em"><a href="javascript:addFilter(&#39;username&#39;, &#39;hunterscrossbow&#39;)">hunterscrossbow</a></span> <span class="facet_item" style="font-size:1.62857142857em"><a href="javascript:addFilter(&#39;username&#39;, &#39;j.zazvurek&#39;)">j.zazvurek</a></span> <span class="facet_item" style="font-size:0.885714285714em"><a href="javascript:addFilter(&#39;username&#39;, &#39;jevron_freeman&#39;)">jevron_freeman</a></span> <span class="facet_item" style="font-size:0.885714285714em"><a href="javascript:addFilter(&#39;username&#39;, &#39;juliabosque&#39;)">juliabosque</a></span> <span class="facet_item" style="font-size:0.885714285714em"><a href="javascript:addFilter(&#39;username&#39;, &#39;kathakaku&#39;)">kathakaku</a></span> <span class="facet_item" style="font-size:1.25714285714em"><a href="javascript:addFilter(&#39;username&#39;, &#39;littlerobotsoundfactory&#39;)">littlerobotsoundfactory</a></span> <span class="facet_item" style="font-size:1.25714285714em"><a href="javascript:addFilter(&#39;username&#39;, &#39;nanakisan&#39;)">nanakisan</a></span> <span class="facet_item" style="font-size:1.07142857143em"><a href="javascript:addFilter(&#39;username&#39;, &#39;pablocandel&#39;)">pablocandel</a></span> <span class="facet_item" style="font-size:1.07142857143em"><a href="javascript:addFilter(&#39;username&#39;, &#39;qubodup&#39;)">qubodup</a></span> <span class="facet_item" style="font-size:1.44285714286em"><a href="javascript:addFilter(&#39;username&#39;, &#39;robinhood76&#39;)">robinhood76</a></span> <span class="facet_item" style="font-size:1.07142857143em"><a href="javascript:addFilter(&#39;username&#39;, &#39;ryding&#39;)">ryding</a></span> <span class="facet_item" style="font-size:1.07142857143em"><a href="javascript:addFilter(&#39;username&#39;, &#39;saraonsins&#39;)">saraonsins</a></span> <span class="facet_item" style="font-size:0.885714285714em"><a href="javascript:addFilter(&#39;username&#39;, &#39;serles_music&#39;)">serles_music</a></span> <span class="facet_item" style="font-size:2.0em"><a href="javascript:addFilter(&#39;username&#39;, &#39;syna-max&#39;)">syna-max</a></span> <span class="facet_item" style="font-size:1.44285714286em"><a href="javascript:addFilter(&#39;username&#39;, &#39;timtube&#39;)">timtube</a></span> <span class="facet_item" style="font-size:0.885714285714em"><a href="javascript:addFilter(&#39;username&#39;, &#39;tschapajew&#39;)">tschapajew</a></span> <span class="facet_item" style="font-size:0.885714285714em"><a href="javascript:addFilter(&#39;username&#39;, &#39;univ_lyon3&#39;)">univ_lyon3</a></span> <span class="facet_item" style="font-size:1.44285714286em"><a href="javascript:addFilter(&#39;username&#39;, &#39;visions68&#39;)">visions68</a></span> <span class="facet_item" style="font-size:1.62857142857em"><a href="javascript:addFilter(&#39;username&#39;, &#39;xdimebagx&#39;)">xdimebagx</a></span> <span class="facet_item" style="font-size:0.885714285714em"><a href="javascript:addFilter(&#39;username&#39;, &#39;xlemortvivantx&#39;)">xlemortvivantx</a></span> 
+</p>
+
+
+        
+
+    </div>
+
+        
+            <div class="search_paginator">
+                <ul class="pagination"><li class="disabled-previous-next">previous</li><li class="next-page"><a href="http://freesound.org/search/?q=scary+screams&amp;page=2#sound" title="Next Page">next</a></li><li class="current-page">1</li><li class="other-page"><a href="http://freesound.org/search/?q=scary+screams&amp;page=2#sound" title="Page 2">2</a></li><li class="other-page"><a href="http://freesound.org/search/?q=scary+screams&amp;page=3#sound" title="Page 3">3</a></li><li class="other-page"><a href="http://freesound.org/search/?q=scary+screams&amp;page=4#sound" title="Page 4">4</a></li><li class="other-page"><a href="http://freesound.org/search/?q=scary+screams&amp;page=5#sound" title="Page 5">5</a></li><li class="other-page"><a href="http://freesound.org/search/?q=scary+screams&amp;page=6#sound" title="Page 6">6</a></li><li class="other-page"><a href="http://freesound.org/search/?q=scary+screams&amp;page=7#sound" title="Page 7">7</a></li><li class="dots">...</li><li class="last-page"><a href="http://freesound.org/search/?q=scary+screams&amp;page=11#sound" title="Last Page">11</a></li><p class="number_of_results">
+            
+                &nbsp;|&nbsp; 246 sounds
+            
+        </p></ul>
+
+
+            </div>
+
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="343823">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="http://freesound.org/data/previews/343/343823_6179115-lq.mp3" title="mp3 file">High_Pitch_Chilling_Screams.wav - mp3 version</a>
+<a class="ogg_file" href="http://freesound.org/data/previews/343/343823_6179115-lq.ogg" title="ogg file">High_Pitch_Chilling_Screams.wav - ogg version</a>
+<a class="waveform" href="http://freesound.org/data/displays/343/343823_6179115_wave_M.png" title="waveform file">High_Pitch_Chilling_Screams.wav - waveform</a>
+<a class="spectrum" href="http://freesound.org/data/displays/343/343823_6179115_spec_M.jpg" title="spectrogram file">High_Pitch_Chilling_Screams.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">13432.7</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/343/343823_6179115_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:13</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="http://freesound.org/people/Brokenphono/sounds/343823/" title="High_Pitch_Chilling_Screams.wav">High_Pitch_Chilling_Scre...</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+                   <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+                   <li><a href="http://freesound.org/ratings/add/20/343823/1/" title="pretty bad :-(" class="one-star">1</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/343823/2/" title="quite good" class="two-stars">2</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/343823/3/" title="good :-)" class="three-stars">3</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/343823/4/" title="very good" class="four-stars">4</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/343823/5/" title="amazing :-o" class="five-stars">5</a></li>
+               </ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Young child being tickled causing him to shriek, quite chilling actually. Peavy PVM 38 16bit 44.1 mono</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="http://freesound.org/browse/tags/screams/">screams</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/high-pitched/">high-pitched</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/horror/">horror</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/human/">human</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/child/">child</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/terror/">terror</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/screaming/">screaming</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/scream/">scream</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_343823" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="http://freesound.org/people/Brokenphono/">Brokenphono</a><br>
+        <span class="date">April 23rd, 2016</span><br>
+        <span class="download_count"><a href="http://freesound.org/people/Brokenphono/sounds/343823/downloaders/">441 downloads</a></span><br>
+        <a class="comments" href="http://freesound.org/people/Brokenphono/sounds/343823/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(343823)">
+                <img src="./Freesound.org - sound search_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="http://freesound.org/people/Brokenphono/sounds/343823/similar/">
+                <img src="./Freesound.org - sound search_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="http://freesound.org/people/Brokenphono/packs/19509/">
+                <img src="./Freesound.org - sound search_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Scary">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound.org - sound search_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="59163">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="http://freesound.org/data/previews/59/59163_718003-lq.mp3" title="mp3 file">scream 2.wav - mp3 version</a>
+<a class="ogg_file" href="http://freesound.org/data/previews/59/59163_718003-lq.ogg" title="ogg file">scream 2.wav - ogg version</a>
+<a class="waveform" href="http://freesound.org/data/displays/59/59163_718003_wave_M.png" title="waveform file">scream 2.wav - waveform</a>
+<a class="spectrum" href="http://freesound.org/data/displays/59/59163_718003_spec_M.jpg" title="spectrogram file">scream 2.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">4713.65079365</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="play toggle">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/59/59163_718003_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                                  <div class="position-indicator" style="left: 100.862%;"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:00</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="http://freesound.org/people/timtube/sounds/59163/" title="scream 2.wav">scream 2.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+                   <li class="current-rating" style="width:52%;">Currently /5 Stars.</li>
+                   <li><a href="http://freesound.org/ratings/add/20/59163/1/" title="pretty bad :-(" class="one-star">1</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/59163/2/" title="quite good" class="two-stars">2</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/59163/3/" title="good :-)" class="three-stars">3</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/59163/4/" title="very good" class="four-stars">4</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/59163/5/" title="amazing :-o" class="five-stars">5</a></li>
+               </ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">me screaming into the microphone</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="http://freesound.org/browse/tags/horror/">horror</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/scary/">scary</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/scream/">scream</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/screams/">screams</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_59163" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="http://freesound.org/people/timtube/">timtube</a><br>
+        <span class="date">August 21st, 2008</span><br>
+        <span class="download_count"><a href="http://freesound.org/people/timtube/sounds/59163/downloaders/">1965 downloads</a></span><br>
+        <a class="comments" href="http://freesound.org/people/timtube/sounds/59163/#comments">15 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(59163)">
+                <img src="./Freesound.org - sound search_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="http://freesound.org/people/timtube/sounds/59163/similar/">
+                <img src="./Freesound.org - sound search_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="http://freesound.org/people/timtube/packs/3903/">
+                <img src="./Freesound.org - sound search_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: screams">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+            
+                <img class="cc_license" src="./Freesound.org - sound search_files/bync.png" height="16" alt="Creative Commons Attribution Non-Commercial license" title="This sound is licensed under the Creative Commons Attribution Non-Commercial license.">
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        
+                        <div class="sample_more_search_results"><img src="./Freesound.org - sound search_files/plus.png" alt=""> <a href="http://freesound.org/search/?q=scary%20screams&amp;f=grouping_pack:%223903_screams%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">4 more results</a> in the same pack "screams"</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="351339">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="http://freesound.org/data/previews/351/351339_3026235-lq.mp3" title="mp3 file">girl scream frank 6.wav - mp3 version</a>
+<a class="ogg_file" href="http://freesound.org/data/previews/351/351339_3026235-lq.ogg" title="ogg file">girl scream frank 6.wav - ogg version</a>
+<a class="waveform" href="http://freesound.org/data/displays/351/351339_3026235_wave_M.png" title="waveform file">girl scream frank 6.wav - waveform</a>
+<a class="spectrum" href="http://freesound.org/data/displays/351/351339_3026235_spec_M.jpg" title="spectrogram file">girl scream frank 6.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">7013.88</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/351/351339_3026235_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:07</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="http://freesound.org/people/visions68/sounds/351339/" title="girl scream frank 6.wav">girl scream frank 6.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+                   <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+                   <li><a href="http://freesound.org/ratings/add/20/351339/1/" title="pretty bad :-(" class="one-star">1</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/351339/2/" title="quite good" class="two-stars">2</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/351339/3/" title="good :-)" class="three-stars">3</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/351339/4/" title="very good" class="four-stars">4</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/351339/5/" title="amazing :-o" class="five-stars">5</a></li>
+               </ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">sounds we mad for our movies</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="http://freesound.org/browse/tags/scary/">scary</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/woman/">woman</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/screams/">screams</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/horror/">horror</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/girl/">girl</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/screaming/">screaming</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/scream/">scream</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_351339" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="http://freesound.org/people/visions68/">visions68</a><br>
+        <span class="date">August 2nd, 2016</span><br>
+        <span class="download_count"><a href="http://freesound.org/people/visions68/sounds/351339/downloaders/">672 downloads</a></span><br>
+        <a class="comments" href="http://freesound.org/people/visions68/sounds/351339/#comments">1 comment</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(351339)">
+                <img src="./Freesound.org - sound search_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="http://freesound.org/people/visions68/sounds/351339/similar/">
+                <img src="./Freesound.org - sound search_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="http://freesound.org/people/visions68/packs/19976/">
+                <img src="./Freesound.org - sound search_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: scream">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./Freesound.org - sound search_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        
+                        <div class="sample_more_search_results"><img src="./Freesound.org - sound search_files/plus.png" alt=""> <a href="http://freesound.org/search/?q=scary%20screams&amp;f=grouping_pack:%2219976_scream%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">5 more results</a> in the same pack "scream"</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="278177">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="http://freesound.org/data/previews/278/278177_3207011-lq.mp3" title="mp3 file">man scream - mp3 version</a>
+<a class="ogg_file" href="http://freesound.org/data/previews/278/278177_3207011-lq.ogg" title="ogg file">man scream - ogg version</a>
+<a class="waveform" href="http://freesound.org/data/displays/278/278177_3207011_wave_M.png" title="waveform file">man scream - waveform</a>
+<a class="spectrum" href="http://freesound.org/data/displays/278/278177_3207011_spec_M.jpg" title="spectrogram file">man scream - spectrogram</a>
+<span class="duration" title="duration in seconds">4629.62</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/278/278177_3207011_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:04</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="http://freesound.org/people/alexaxy/sounds/278177/" title="man scream">man scream</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+                   <li class="current-rating" style="width:85%;">Currently /5 Stars.</li>
+                   <li><a href="http://freesound.org/ratings/add/20/278177/1/" title="pretty bad :-(" class="one-star">1</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/278177/2/" title="quite good" class="two-stars">2</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/278177/3/" title="good :-)" class="three-stars">3</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/278177/4/" title="very good" class="four-stars">4</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/278177/5/" title="amazing :-o" class="five-stars">5</a></li>
+               </ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">this is my son screaming;)</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="http://freesound.org/browse/tags/scary/">scary</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/death/">death</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/frothing/">frothing</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/horrific/">horrific</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/horror/">horror</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/kill/">kill</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/wrenching/">wrenching</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/gut/">gut</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/wild/">wild</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/ravenous/">ravenous</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/fear/">fear</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/panic/">panic</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/screams/">screams</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_278177" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="http://freesound.org/people/alexaxy/">alexaxy</a><br>
+        <span class="date">July 2nd, 2015</span><br>
+        <span class="download_count"><a href="http://freesound.org/people/alexaxy/sounds/278177/downloaders/">1654 downloads</a></span><br>
+        <a class="comments" href="http://freesound.org/people/alexaxy/sounds/278177/#comments">7 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(278177)">
+                <img src="./Freesound.org - sound search_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="http://freesound.org/people/alexaxy/sounds/278177/similar/">
+                <img src="./Freesound.org - sound search_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound.org - sound search_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="61258">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="http://freesound.org/data/previews/61/61258_718003-lq.mp3" title="mp3 file">scream 2.wav - mp3 version</a>
+<a class="ogg_file" href="http://freesound.org/data/previews/61/61258_718003-lq.ogg" title="ogg file">scream 2.wav - ogg version</a>
+<a class="waveform" href="http://freesound.org/data/displays/61/61258_718003_wave_M.png" title="waveform file">scream 2.wav - waveform</a>
+<a class="spectrum" href="http://freesound.org/data/displays/61/61258_718003_spec_M.jpg" title="spectrogram file">scream 2.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">1465.75963719</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/61/61258_718003_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:01</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="http://freesound.org/people/timtube/sounds/61258/" title="scream 2.wav">scream 2.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+                   <li class="current-rating" style="width:53%;">Currently /5 Stars.</li>
+                   <li><a href="http://freesound.org/ratings/add/20/61258/1/" title="pretty bad :-(" class="one-star">1</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/61258/2/" title="quite good" class="two-stars">2</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/61258/3/" title="good :-)" class="three-stars">3</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/61258/4/" title="very good" class="four-stars">4</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/61258/5/" title="amazing :-o" class="five-stars">5</a></li>
+               </ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">me screaming in the microphone.</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="http://freesound.org/browse/tags/horror/">horror</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/scary/">scary</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/scream/">scream</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/screams/">screams</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_61258" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="http://freesound.org/people/timtube/">timtube</a><br>
+        <span class="date">October 13th, 2008</span><br>
+        <span class="download_count"><a href="http://freesound.org/people/timtube/sounds/61258/downloaders/">1163 downloads</a></span><br>
+        <a class="comments" href="http://freesound.org/people/timtube/sounds/61258/#comments">6 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(61258)">
+                <img src="./Freesound.org - sound search_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="http://freesound.org/people/timtube/sounds/61258/similar/">
+                <img src="./Freesound.org - sound search_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="http://freesound.org/people/timtube/packs/3897/">
+                <img src="./Freesound.org - sound search_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: my voice meow">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+            
+                <img class="cc_license" src="./Freesound.org - sound search_files/bync.png" height="16" alt="Creative Commons Attribution Non-Commercial license" title="This sound is licensed under the Creative Commons Attribution Non-Commercial license.">
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="393488">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="http://freesound.org/data/previews/393/393488_4357924-lq.mp3" title="mp3 file">Multiple Female Screams - mp3 version</a>
+<a class="ogg_file" href="http://freesound.org/data/previews/393/393488_4357924-lq.ogg" title="ogg file">Multiple Female Screams - ogg version</a>
+<a class="waveform" href="http://freesound.org/data/displays/393/393488_4357924_wave_M.png" title="waveform file">Multiple Female Screams - waveform</a>
+<a class="spectrum" href="http://freesound.org/data/displays/393/393488_4357924_spec_M.jpg" title="spectrogram file">Multiple Female Screams - spectrogram</a>
+<span class="duration" title="duration in seconds">60562.5</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/393/393488_4357924_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-01:00</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="http://freesound.org/people/megmcduffee/sounds/393488/" title="Multiple Female Screams">Multiple Female Screams</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+                   <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+                   <li><a href="http://freesound.org/ratings/add/20/393488/1/" title="pretty bad :-(" class="one-star">1</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/393488/2/" title="quite good" class="two-stars">2</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/393488/3/" title="good :-)" class="three-stars">3</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/393488/4/" title="very good" class="four-stars">4</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/393488/5/" title="amazing :-o" class="five-stars">5</a></li>
+               </ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Multiple female <b>screams</b> with slightly differing timbres. Great for layering. Recorded with the Rode NT3 condenser microphone into Cubase.</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="http://freesound.org/browse/tags/yelling/">yelling</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/intense/">intense</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/screaming/">screaming</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/yell/">yell</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/hell/">hell</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/anger/">anger</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/nightmare/">nightmare</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/fear/">fear</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/haunted/">haunted</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/shout/">shout</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/terror/">terror</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/scream/">scream</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/evil/">evil</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/sinister/">sinister</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/horror/">horror</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/screams/">screams</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/pain/">pain</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/scary/">scary</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_393488" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="http://freesound.org/people/megmcduffee/">megmcduffee</a><br>
+        <span class="date">May 18th, 2017</span><br>
+        <span class="download_count"><a href="http://freesound.org/people/megmcduffee/sounds/393488/downloaders/">119 downloads</a></span><br>
+        <a class="comments" href="http://freesound.org/people/megmcduffee/sounds/393488/#comments">0 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(393488)">
+                <img src="./Freesound.org - sound search_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="http://freesound.org/people/megmcduffee/sounds/393488/similar/">
+                <img src="./Freesound.org - sound search_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound.org - sound search_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="211872">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="http://freesound.org/data/previews/211/211872_3973656-lq.mp3" title="mp3 file">whispers and screams - mp3 version</a>
+<a class="ogg_file" href="http://freesound.org/data/previews/211/211872_3973656-lq.ogg" title="ogg file">whispers and screams - ogg version</a>
+<a class="waveform" href="http://freesound.org/data/displays/211/211872_3973656_wave_M.png" title="waveform file">whispers and screams - waveform</a>
+<a class="spectrum" href="http://freesound.org/data/displays/211/211872_3973656_spec_M.jpg" title="spectrogram file">whispers and screams - spectrogram</a>
+<span class="duration" title="duration in seconds">3817.39</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/211/211872_3973656_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:03</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="http://freesound.org/people/Fyodore/sounds/211872/" title="whispers and screams">whispers and screams</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+                   <li class="current-rating" style="width:90%;">Currently /5 Stars.</li>
+                   <li><a href="http://freesound.org/ratings/add/20/211872/1/" title="pretty bad :-(" class="one-star">1</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/211872/2/" title="quite good" class="two-stars">2</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/211872/3/" title="good :-)" class="three-stars">3</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/211872/4/" title="very good" class="four-stars">4</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/211872/5/" title="amazing :-o" class="five-stars">5</a></li>
+               </ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Inspired by Ben Croshaw's point 'n' click horror adventure games, I decided I'd try and see if I can make ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="http://freesound.org/browse/tags/ghost/">ghost</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/scary/">scary</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/death/">death</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/screams/">screams</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/whisper/">whisper</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/horror/">horror</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/evil/">evil</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/creepy/">creepy</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/phantom/">phantom</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_211872" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="http://freesound.org/people/Fyodore/">Fyodore</a><br>
+        <span class="date">December 27th, 2013</span><br>
+        <span class="download_count"><a href="http://freesound.org/people/Fyodore/sounds/211872/downloaders/">1740 downloads</a></span><br>
+        <a class="comments" href="http://freesound.org/people/Fyodore/sounds/211872/#comments">1 comment</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(211872)">
+                <img src="./Freesound.org - sound search_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="http://freesound.org/people/Fyodore/sounds/211872/similar/">
+                <img src="./Freesound.org - sound search_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound.org - sound search_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="172401">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="http://freesound.org/data/previews/172/172401_2478427-lq.mp3" title="mp3 file">3 Screams.mp3 - mp3 version</a>
+<a class="ogg_file" href="http://freesound.org/data/previews/172/172401_2478427-lq.ogg" title="ogg file">3 Screams.mp3 - ogg version</a>
+<a class="waveform" href="http://freesound.org/data/displays/172/172401_2478427_wave_M.png" title="waveform file">3 Screams.mp3 - waveform</a>
+<a class="spectrum" href="http://freesound.org/data/displays/172/172401_2478427_spec_M.jpg" title="spectrogram file">3 Screams.mp3 - spectrogram</a>
+<span class="duration" title="duration in seconds">3808.07</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/172/172401_2478427_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:03</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="http://freesound.org/people/LasciviousGork/sounds/172401/" title="3 Screams.mp3">3 Screams.mp3</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+                   <li class="current-rating" style="width:77%;">Currently /5 Stars.</li>
+                   <li><a href="http://freesound.org/ratings/add/20/172401/1/" title="pretty bad :-(" class="one-star">1</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/172401/2/" title="quite good" class="two-stars">2</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/172401/3/" title="good :-)" class="three-stars">3</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/172401/4/" title="very good" class="four-stars">4</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/172401/5/" title="amazing :-o" class="five-stars">5</a></li>
+               </ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">A funny scream I did for a video. Recorded with a turtle beach headset and audacity. Enjoy.</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="http://freesound.org/browse/tags/funny/">funny</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/screams/">screams</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/scary/">scary</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/three/">three</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/LasciviousGork/">LasciviousGork</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/3/">3</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/panic/">panic</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_172401" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="http://freesound.org/people/LasciviousGork/">LasciviousGork</a><br>
+        <span class="date">December 24th, 2012</span><br>
+        <span class="download_count"><a href="http://freesound.org/people/LasciviousGork/sounds/172401/downloaders/">595 downloads</a></span><br>
+        <a class="comments" href="http://freesound.org/people/LasciviousGork/sounds/172401/#comments">1 comment</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(172401)">
+                <img src="./Freesound.org - sound search_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="http://freesound.org/people/LasciviousGork/sounds/172401/similar/">
+                <img src="./Freesound.org - sound search_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound.org - sound search_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="168719">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="http://freesound.org/data/previews/168/168719_3096039-lq.mp3" title="mp3 file">That Wrecked The Party - mp3 version</a>
+<a class="ogg_file" href="http://freesound.org/data/previews/168/168719_3096039-lq.ogg" title="ogg file">That Wrecked The Party - ogg version</a>
+<a class="waveform" href="http://freesound.org/data/displays/168/168719_3096039_wave_M.png" title="waveform file">That Wrecked The Party - waveform</a>
+<a class="spectrum" href="http://freesound.org/data/displays/168/168719_3096039_spec_M.jpg" title="spectrogram file">That Wrecked The Party - spectrogram</a>
+<span class="duration" title="duration in seconds">30000.0</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/168/168719_3096039_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:30</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="http://freesound.org/people/TiAmIsTiAm/sounds/168719/" title="That Wrecked The Party">That Wrecked The Party</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+                   <li class="current-rating" style="width:91%;">Currently /5 Stars.</li>
+                   <li><a href="http://freesound.org/ratings/add/20/168719/1/" title="pretty bad :-(" class="one-star">1</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/168719/2/" title="quite good" class="two-stars">2</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/168719/3/" title="good :-)" class="three-stars">3</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/168719/4/" title="very good" class="four-stars">4</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/168719/5/" title="amazing :-o" class="five-stars">5</a></li>
+               </ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">You've heard of the party crasher...now meet the party slasher. Offical entry for Freesound Dare 16. Atrribution: 23154__FreqMan__Party_then_<b>screams</b>_2.wav: main screams ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="http://freesound.org/browse/tags/Storm/">Storm</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Contest/">Contest</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Thunder/">Thunder</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Attack/">Attack</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Samples/">Samples</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Party/">Party</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Slasher/">Slasher</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Murder/">Murder</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Screams/">Screams</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Massacre/">Massacre</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Rain/">Rain</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Chainsaw/">Chainsaw</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Tiam/">Tiam</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Gore/">Gore</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Freesound/">Freesound</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Frightening/">Frightening</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Blood/">Blood</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Sound/">Sound</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Scary/">Scary</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Tiamistiam/">Tiamistiam</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Lightning/">Lightning</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Tiam-Is-Tiam/">Tiam-Is-Tiam</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Scream/">Scream</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Collage/">Collage</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Spooky/">Spooky</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Halloween/">Halloween</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Psycho/">Psycho</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_168719" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="http://freesound.org/people/TiAmIsTiAm/">TiAmIsTiAm</a><br>
+        <span class="date">October 29th, 2012</span><br>
+        <span class="download_count"><a href="http://freesound.org/people/TiAmIsTiAm/sounds/168719/downloaders/">1560 downloads</a></span><br>
+        <a class="comments" href="http://freesound.org/people/TiAmIsTiAm/sounds/168719/#comments">20 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(168719)">
+                <img src="./Freesound.org - sound search_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="http://freesound.org/people/TiAmIsTiAm/sounds/168719/similar/">
+                <img src="./Freesound.org - sound search_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+            
+                <img class="cc_license" src="./Freesound.org - sound search_files/bync.png" height="16" alt="Creative Commons Attribution Non-Commercial license" title="This sound is licensed under the Creative Commons Attribution Non-Commercial license.">
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="240091">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="http://freesound.org/data/previews/240/240091_1149179-lq.mp3" title="mp3 file">haunted shrills.wav - mp3 version</a>
+<a class="ogg_file" href="http://freesound.org/data/previews/240/240091_1149179-lq.ogg" title="ogg file">haunted shrills.wav - ogg version</a>
+<a class="waveform" href="http://freesound.org/data/displays/240/240091_1149179_wave_M.png" title="waveform file">haunted shrills.wav - waveform</a>
+<a class="spectrum" href="http://freesound.org/data/displays/240/240091_1149179_spec_M.jpg" title="spectrogram file">haunted shrills.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">32980.1</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/240/240091_1149179_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:32</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="http://freesound.org/people/squashy555/sounds/240091/" title="haunted shrills.wav">haunted shrills.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+                   <li class="current-rating" style="width:94%;">Currently /5 Stars.</li>
+                   <li><a href="http://freesound.org/ratings/add/20/240091/1/" title="pretty bad :-(" class="one-star">1</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/240091/2/" title="quite good" class="two-stars">2</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/240091/3/" title="good :-)" class="three-stars">3</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/240091/4/" title="very good" class="four-stars">4</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/240091/5/" title="amazing :-o" class="five-stars">5</a></li>
+               </ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Terryfying sounds, like screaming monsters - this was made from a recording of Sunny the Budgie singing, slowed and reversed ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="http://freesound.org/browse/tags/spooky/">spooky</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/demon/">demon</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/alien/">alien</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/suspense/">suspense</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/zombie/">zombie</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/devil/">devil</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/nightmare/">nightmare</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Haunted/">Haunted</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/terror/">terror</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/shrill/">shrill</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/creature/">creature</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/undead/">undead</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/monster/">monster</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/evil/">evil</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/beast/">beast</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/haunted/">haunted</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/ghost/">ghost</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/scary/">scary</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/fearful/">fearful</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/sinister/">sinister</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/creepy/">creepy</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/scream/">scream</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/chilling/">chilling</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/dogs/">dogs</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/torture/">torture</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/shreik/">shreik</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/animals/">animals</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/screams/">screams</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_240091" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="http://freesound.org/people/squashy555/">squashy555</a><br>
+        <span class="date">June 4th, 2014</span><br>
+        <span class="download_count"><a href="http://freesound.org/people/squashy555/sounds/240091/downloaders/">1534 downloads</a></span><br>
+        <a class="comments" href="http://freesound.org/people/squashy555/sounds/240091/#comments">1 comment</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(240091)">
+                <img src="./Freesound.org - sound search_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="http://freesound.org/people/squashy555/sounds/240091/similar/">
+                <img src="./Freesound.org - sound search_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound.org - sound search_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="207842">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="http://freesound.org/data/previews/207/207842_2962530-lq.mp3" title="mp3 file">Dark Swamp Theme - 2 - mp3 version</a>
+<a class="ogg_file" href="http://freesound.org/data/previews/207/207842_2962530-lq.ogg" title="ogg file">Dark Swamp Theme - 2 - ogg version</a>
+<a class="waveform" href="http://freesound.org/data/displays/207/207842_2962530_wave_M.png" title="waveform file">Dark Swamp Theme - 2 - waveform</a>
+<a class="spectrum" href="http://freesound.org/data/displays/207/207842_2962530_spec_M.jpg" title="spectrogram file">Dark Swamp Theme - 2 - spectrogram</a>
+<span class="duration" title="duration in seconds">142942.0</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/207/207842_2962530_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-02:22</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="http://freesound.org/people/Speedenza/sounds/207842/" title="Dark Swamp Theme - 2">Dark Swamp Theme - 2</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+                   <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+                   <li><a href="http://freesound.org/ratings/add/20/207842/1/" title="pretty bad :-(" class="one-star">1</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/207842/2/" title="quite good" class="two-stars">2</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/207842/3/" title="good :-)" class="three-stars">3</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/207842/4/" title="very good" class="four-stars">4</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/207842/5/" title="amazing :-o" class="five-stars">5</a></li>
+               </ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Background theme evoking a dark atmosphere. Some ghostly sounds so maybe useful in a <b>scary</b> setting. Sounds better downloaded. More ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="http://freesound.org/browse/tags/drama/">drama</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/atmosphere/">atmosphere</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/sci-fi/">sci-fi</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/dramatic/">dramatic</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/horror/">horror</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/synth/">synth</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/ambiance/">ambiance</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/texture/">texture</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/drone/">drone</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/dark/">dark</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/swamp/">swamp</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/atmos/">atmos</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/scifi/">scifi</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/background/">background</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/ambient/">ambient</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/ambience/">ambience</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/soundscape/">soundscape</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/action/">action</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/adventure/">adventure</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/screams/">screams</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/ghostly/">ghostly</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/ghost/">ghost</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/scary/">scary</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_207842" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="http://freesound.org/people/Speedenza/">Speedenza</a><br>
+        <span class="date">November 21st, 2013</span><br>
+        <span class="download_count"><a href="http://freesound.org/people/Speedenza/sounds/207842/downloaders/">597 downloads</a></span><br>
+        <a class="comments" href="http://freesound.org/people/Speedenza/sounds/207842/#comments">1 comment</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(207842)">
+                <img src="./Freesound.org - sound search_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="http://freesound.org/people/Speedenza/sounds/207842/similar/">
+                <img src="./Freesound.org - sound search_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="http://freesound.org/people/Speedenza/packs/12999/">
+                <img src="./Freesound.org - sound search_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Not Quite a Drone">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+            
+                <img class="cc_license" src="./Freesound.org - sound search_files/bync.png" height="16" alt="Creative Commons Attribution Non-Commercial license" title="This sound is licensed under the Creative Commons Attribution Non-Commercial license.">
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        
+                        <div class="sample_more_search_results"><img src="./Freesound.org - sound search_files/plus.png" alt=""> <a href="http://freesound.org/search/?q=scary%20screams&amp;f=grouping_pack:%2212999_Not%20Quite%20a%20Drone%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">1 more result</a> in the same pack "Not Quite a Drone"</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="350965">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="http://freesound.org/data/previews/350/350965_3808264-lq.mp3" title="mp3 file">very intense hell.mp3 - mp3 version</a>
+<a class="ogg_file" href="http://freesound.org/data/previews/350/350965_3808264-lq.ogg" title="ogg file">very intense hell.mp3 - ogg version</a>
+<a class="waveform" href="http://freesound.org/data/displays/350/350965_3808264_wave_M.png" title="waveform file">very intense hell.mp3 - waveform</a>
+<a class="spectrum" href="http://freesound.org/data/displays/350/350965_3808264_spec_M.jpg" title="spectrogram file">very intense hell.mp3 - spectrogram</a>
+<span class="duration" title="duration in seconds">28017.4</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/350/350965_3808264_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:28</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="http://freesound.org/people/E1ectr0n1cF4n/sounds/350965/" title="very intense hell.mp3">very intense hell.mp3</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+                   <li class="current-rating" style="width:64%;">Currently /5 Stars.</li>
+                   <li><a href="http://freesound.org/ratings/add/20/350965/1/" title="pretty bad :-(" class="one-star">1</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/350965/2/" title="quite good" class="two-stars">2</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/350965/3/" title="good :-)" class="three-stars">3</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/350965/4/" title="very good" class="four-stars">4</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/350965/5/" title="amazing :-o" class="five-stars">5</a></li>
+               </ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Warning, headphone users, heheh.. I tried making a sound relating to what hell would sound like. It's probably nothing like ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="http://freesound.org/browse/tags/scary/">scary</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/devil/">devil</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/screams/">screams</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/torture/">torture</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/horror/">horror</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/demon/">demon</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/evil/">evil</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/hell/">hell</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/fear/">fear</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/nightmare/">nightmare</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_350965" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="http://freesound.org/people/E1ectr0n1cF4n/">E1ectr0n1cF4n</a><br>
+        <span class="date">July 28th, 2016</span><br>
+        <span class="download_count"><a href="http://freesound.org/people/E1ectr0n1cF4n/sounds/350965/downloaders/">89 downloads</a></span><br>
+        <a class="comments" href="http://freesound.org/people/E1ectr0n1cF4n/sounds/350965/#comments">2 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(350965)">
+                <img src="./Freesound.org - sound search_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="http://freesound.org/people/E1ectr0n1cF4n/sounds/350965/similar/">
+                <img src="./Freesound.org - sound search_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound.org - sound search_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="338955">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="http://freesound.org/data/previews/338/338955_2878551-lq.mp3" title="mp3 file">What is that.wav - mp3 version</a>
+<a class="ogg_file" href="http://freesound.org/data/previews/338/338955_2878551-lq.ogg" title="ogg file">What is that.wav - ogg version</a>
+<a class="waveform" href="http://freesound.org/data/displays/338/338955_2878551_wave_M.png" title="waveform file">What is that.wav - waveform</a>
+<a class="spectrum" href="http://freesound.org/data/displays/338/338955_2878551_spec_M.jpg" title="spectrogram file">What is that.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">21086.6</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/338/338955_2878551_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:21</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="http://freesound.org/people/carmsie/sounds/338955/" title="What is that.wav">What is that.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+                   <li class="current-rating" style="width:60%;">Currently /5 Stars.</li>
+                   <li><a href="http://freesound.org/ratings/add/20/338955/1/" title="pretty bad :-(" class="one-star">1</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/338955/2/" title="quite good" class="two-stars">2</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/338955/3/" title="good :-)" class="three-stars">3</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/338955/4/" title="very good" class="four-stars">4</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/338955/5/" title="amazing :-o" class="five-stars">5</a></li>
+               </ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">A scared female is trapped and confused .. and then ... OMG! Just me, Audacity software and a microphone.</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="http://freesound.org/browse/tags/scary/">scary</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/woman/">woman</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/lost/">lost</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/torture/">torture</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/trapped/">trapped</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/scared/">scared</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/bondage/">bondage</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/confused/">confused</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/vocal/">vocal</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/scream/">scream</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/female/">female</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/fear/">fear</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/voice/">voice</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/horror/">horror</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/pain/">pain</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/agony/">agony</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/disturbing/">disturbing</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/death/">death</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/painful/">painful</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/screaming/">screaming</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/yelling/">yelling</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Halloween/">Halloween</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/yell/">yell</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/screams/">screams</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_338955" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="http://freesound.org/people/carmsie/">carmsie</a><br>
+        <span class="date">March 6th, 2016</span><br>
+        <span class="download_count"><a href="http://freesound.org/people/carmsie/sounds/338955/downloaders/">135 downloads</a></span><br>
+        <a class="comments" href="http://freesound.org/people/carmsie/sounds/338955/#comments">1 comment</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(338955)">
+                <img src="./Freesound.org - sound search_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="http://freesound.org/people/carmsie/sounds/338955/similar/">
+                <img src="./Freesound.org - sound search_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./Freesound.org - sound search_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="132106">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="http://freesound.org/data/previews/132/132106_2412539-lq.mp3" title="mp3 file">Woman Scream - mp3 version</a>
+<a class="ogg_file" href="http://freesound.org/data/previews/132/132106_2412539-lq.ogg" title="ogg file">Woman Scream - ogg version</a>
+<a class="waveform" href="http://freesound.org/data/displays/132/132106_2412539_wave_M.png" title="waveform file">Woman Scream - waveform</a>
+<a class="spectrum" href="http://freesound.org/data/displays/132/132106_2412539_spec_M.jpg" title="spectrogram file">Woman Scream - spectrogram</a>
+<span class="duration" title="duration in seconds">2487.07</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/132/132106_2412539_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:02</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="http://freesound.org/people/sironboy/sounds/132106/" title="Woman Scream">Woman Scream</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+                   <li class="current-rating" style="width:82%;">Currently /5 Stars.</li>
+                   <li><a href="http://freesound.org/ratings/add/20/132106/1/" title="pretty bad :-(" class="one-star">1</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/132106/2/" title="quite good" class="two-stars">2</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/132106/3/" title="good :-)" class="three-stars">3</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/132106/4/" title="very good" class="four-stars">4</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/132106/5/" title="amazing :-o" class="five-stars">5</a></li>
+               </ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Feel free to use this sound in your projects but remember you MUST give credit to "MaderaDelEste Films". This sound ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="http://freesound.org/browse/tags/abelpower/">abelpower</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Este/">Este</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/bathroom/">bathroom</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Woman/">Woman</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/la/">la</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/El/">El</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/die/">die</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Horror/">Horror</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/de/">de</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Precio/">Precio</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Madera/">Madera</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Vida/">Vida</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Shouting/">Shouting</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Shout/">Shout</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Loudly/">Loudly</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/del/">del</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Screaming/">Screaming</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Terror/">Terror</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Loud/">Loud</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Scream/">Scream</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Creature/">Creature</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Original/">Original</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Zombie/">Zombie</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Mystery/">Mystery</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Scary/">Scary</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/mujer/">mujer</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Attack/">Attack</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/gritando/">gritando</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/Fantasy/">Fantasy</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/grito/">grito</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_132106" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="http://freesound.org/people/sironboy/">sironboy</a><br>
+        <span class="date">October 23rd, 2011</span><br>
+        <span class="download_count"><a href="http://freesound.org/people/sironboy/sounds/132106/downloaders/">49272 downloads</a></span><br>
+        <a class="comments" href="http://freesound.org/people/sironboy/sounds/132106/#comments">79 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(132106)">
+                <img src="./Freesound.org - sound search_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="http://freesound.org/people/sironboy/sounds/132106/similar/">
+                <img src="./Freesound.org - sound search_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="http://freesound.org/people/sironboy/packs/8312/">
+                <img src="./Freesound.org - sound search_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Screams">
+            </a>
+            
+            
+            
+            <a class="geotag" href="http://freesound.org/people/sironboy/sounds/132106/geotag/">
+                <img src="./Freesound.org - sound search_files/geotag.png" width="16" height="16" alt="Geotagged" title="This sound has a geotag">
+            </a>
+            
+            <!-- license icons -->
+            
+            
+            
+            
+                <img class="cc_license" src="./Freesound.org - sound search_files/bync.png" height="16" alt="Creative Commons Attribution Non-Commercial license" title="This sound is licensed under the Creative Commons Attribution Non-Commercial license.">
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="381805">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="http://freesound.org/data/previews/381/381805_7010243-lq.mp3" title="mp3 file">scream5_bosque_julia.mp3 - mp3 version</a>
+<a class="ogg_file" href="http://freesound.org/data/previews/381/381805_7010243-lq.ogg" title="ogg file">scream5_bosque_julia.mp3 - ogg version</a>
+<a class="waveform" href="http://freesound.org/data/displays/381/381805_7010243_wave_M.png" title="waveform file">scream5_bosque_julia.mp3 - waveform</a>
+<a class="spectrum" href="http://freesound.org/data/displays/381/381805_7010243_spec_M.jpg" title="spectrogram file">scream5_bosque_julia.mp3 - spectrogram</a>
+<span class="duration" title="duration in seconds">823.923</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/381/381805_7010243_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:00</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="http://freesound.org/people/juliabosque/sounds/381805/" title="scream5_bosque_julia.mp3">scream5_bosque_julia.mp3</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+                   <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+                   <li><a href="http://freesound.org/ratings/add/20/381805/1/" title="pretty bad :-(" class="one-star">1</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/381805/2/" title="quite good" class="two-stars">2</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/381805/3/" title="good :-)" class="three-stars">3</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/381805/4/" title="very good" class="four-stars">4</a></li>
+                   <li><a href="http://freesound.org/ratings/add/20/381805/5/" title="amazing :-o" class="five-stars">5</a></li>
+               </ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">scream</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="http://freesound.org/browse/tags/scream/">scream</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/screaming/">screaming</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/fear/">fear</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/agony/">agony</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/666moviescreams/">666moviescreams</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/loud/">loud</a></li>
+                    
+                        <li><a href="http://freesound.org/browse/tags/scary/">scary</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_381805" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="http://freesound.org/people/juliabosque/">juliabosque</a><br>
+        <span class="date">February 23rd, 2017</span><br>
+        <span class="download_count"><a href="http://freesound.org/people/juliabosque/sounds/381805/downloaders/">217 downloads</a></span><br>
+        <a class="comments" href="http://freesound.org/people/juliabosque/sounds/381805/#comments">2 comments</a>
+
+        <div class="sound_attributes">
+
+            
+            <a class="bookmark" href="javascript:void(0)" onclick="show_hide_bookmark_form(381805)">
+                <img src="./Freesound.org - sound search_files/address-book-blue.png" width="16" height="16" alt="Bookmark" title="Bookmark this sound">
+            </a>
+            
+
+            
+            <a class="similar" rel="nofollow" href="http://freesound.org/people/juliabosque/sounds/381805/similar/">
+                <img src="./Freesound.org - sound search_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="http://freesound.org/people/juliabosque/packs/21480/">
+                <img src="./Freesound.org - sound search_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: 666moviescreams">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./Freesound.org - sound search_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        
+                        <div class="sample_more_search_results"><img src="./Freesound.org - sound search_files/plus.png" alt=""> <a href="http://freesound.org/search/?q=scary%20screams&amp;f=grouping_pack:%2221480_666moviescreams%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">2 more results</a> in the same pack "666moviescreams"</div>
+                
+            
+
+            <div class="search_paginator">
+                <ul class="pagination"><li class="disabled-previous-next">previous</li><li class="next-page"><a href="http://freesound.org/search/?q=scary+screams&amp;page=2#sound" title="Next Page">next</a></li><li class="current-page">1</li><li class="other-page"><a href="http://freesound.org/search/?q=scary+screams&amp;page=2#sound" title="Page 2">2</a></li><li class="other-page"><a href="http://freesound.org/search/?q=scary+screams&amp;page=3#sound" title="Page 3">3</a></li><li class="other-page"><a href="http://freesound.org/search/?q=scary+screams&amp;page=4#sound" title="Page 4">4</a></li><li class="other-page"><a href="http://freesound.org/search/?q=scary+screams&amp;page=5#sound" title="Page 5">5</a></li><li class="other-page"><a href="http://freesound.org/search/?q=scary+screams&amp;page=6#sound" title="Page 6">6</a></li><li class="other-page"><a href="http://freesound.org/search/?q=scary+screams&amp;page=7#sound" title="Page 7">7</a></li><li class="dots">...</li><li class="last-page"><a href="http://freesound.org/search/?q=scary+screams&amp;page=11#sound" title="Last Page">11</a></li><p class="number_of_results">
+            
+                &nbsp;|&nbsp; 246 sounds
+            
+        </p></ul>
+
+
+            </div>
+        
+
+
+    
+
+
+
+</div> <!-- END of Content area -->
+
+<br class="clear">
+
+
+
+        </div>
+        </div>
+
+    <div id="footer_wrapper">
+        <div id="footer">
+            
+            <div id="footer_links">
+                <a href="http://freesound.org/help/developers/">Developers</a>
+                <a href="http://blog.freesound.org/">Blog</a>
+                <a href="http://freesound.org/help/about/">About</a>
+                
+                <a href="http://freesound.org/help/tos_web/">Terms of use</a>
+            </div>
+            <div id="footer_credits">
+                Design by <a href="http://www.pixelshell.com/">Pixelshell</a>. Code by <a href="http://www.mtg.upf.edu/">MTG (UPF)</a>. Some Rights Reserved.
+            </div>
+            </div>
+        </div>
+
+        <div id="fsmodal" class="modal"></div>
+    
+
+
+</body></html>
